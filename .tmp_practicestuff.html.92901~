@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		
+		<!--embedded/data_numbers-->
+		<script type="text/javascript">
+document.write(5+15);
+</script>
+<!--external-->
+		<script type= "text/javascript"
+src= "js/jstopractice.js">
+</script>
+<!--data_script-->
+		<script type="text/javascript">
+alert("you can't");
+</script>
+
+	</head>
+	<body>
+		
+		<!--variable name-->
+		<script type="text/javascript">
+var score=0;
+alert(score);
+</script>
+		
+		
+		<!--combining strings variable name-->
+		<script type="text/javascript">
+var firstName='melissa';
+var lastName='flicker';
+document.write('<p>');
+document.write(firstName + ' ' +lastName);
+document.write('</p>');
+</script>
+
+
+
+		<script type= "text/javascript">
+document.write("hello there");
+</script>
+
+<script type="text/javascript">
+document.write(5+15);
+</script>
+
+	</body>
+</html>

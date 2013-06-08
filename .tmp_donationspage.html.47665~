@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+	
+	<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+
+		<!--tags-->
+		<script type="text/javascript">
+			
+		$(document).ready(function( ) {
+			$('.answer').hide();
+			$('#main h2').toggle(
+			function(){$(this).next('.answer').fadeIn();},
+			function(){$(this).next('.answer').fadeOut();}
+			
+			);//end of toggle()	
+		
+		
+		
+		
+		}); // end of javascript function
+		</script>
+		
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#makeMeScrollable").smoothDivScroll({ 
+			mousewheelScrolling: true,
+			manualContinuousScrolling: true,
+			visibleHotSpotBackgrounds: "always",
+			autoScrollingMode: "onstart"
+		});
+	});
+</script>
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Jellyfish Aquarium</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss2.css" type="text/css" />
+		<br>
+		
+		
+		
+		
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 The Aquarium of Jellyfish
+				 <div id="jelly">
+				  <img src="jellylogo4.jpg" height="110px" width="390px" > </div> </div>
+			</div>
+			<div id="bar">
+				&nbsp;&nbsp;&nbsp;
+				
+				<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "hourspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Visit  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Events &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "gallerypage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Gallery  &nbsp;&nbsp;&nbsp;&nbsp; </a> </a> 	
+				<a href= "donationspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Donations  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<br>
+	</head>
+	<body>
+		 
+		
+		
+		<div id="wrapper">
+<div id="leftBox">
+<div id="pic">
+	<h2> Blog </h2>
+	
+	
+	</div>
+	 <br>
+	 
+	<br/>
+	
+</div> <!--close leftBox-->
+
+<div id="rightBox">
+	<br>
+	<br> <div class= "signin" style="color:#181529"><a href= "signup.html">&nbsp;&nbsp; Sign up! &nbsp;&nbsp; </a>
+ </div>
+ <p align="center">
+	This large Aquarium is dedicated to a variety of different jellies,
+	 displaying and educating the public of their life in the ocean. It is educating
+	  the public not only the life cycle or anatomy 
+	  of jellyfish, but also raising awareness
+	   of their population and the environment impacts on the ocean that can dwindle the species.
+</p>
+<h4>History: </h4><p align="center">
+ Brittney Barry founded the Aquarium of Jellyfish in order to educate the public of
+ such a strange yet wonderful species. People can learn what isn't commonly known about a 
+ jellyfish and actually get to see the wide variety of different types. The museum was 
+ established Spring of 2012 on the coast of california near LAX airport.
+</p>
+
+
+
+
+<div id="lastBox" style="position:absolute;margin-left: 370px;height:420px;margin-top:-350px;">
+		<h1> Save the Jellyfish! </h1>
+		
+	<p align= "middle">  <form method="post" id="signup" action="feedback.php">
+ 
+Name:
+<input type="name" class="required"
+name="name" id="myName" />
+<br><br>
+<label id="error">Address:</label> 
+<input type="name" class="required" title= "Please give us your address."
+name="name2" id="yourName" />
+<br><br>
+<label id="error"> Email:</label>  <input type="text"
+name="CustEmail" class="required"
+id="CustEmail" /><br>
+<h5 style="color:#f0e4c5;"> Type of Payment<br>
+<input type="checkbox"
+name="visa" id="visa" value="yes" />
+Visa <br />
+<input type="checkbox"
+name="master" id="master" value="yes" />
+Master Card<br />
+<input type="checkbox"
+name="Echeck" id="Echeck" value="yes" />
+Echeck <br /><br>
+Card Number: 
+<input type="numb" class="required" 
+name="name3" id="number" />
+<br>
+<p align="center"> *For your generous donation we will be sending you<br> a free sticker and poster in the mail* </p>
+
+<br> &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" />
+</form> 
+</h5></p>
+	
+	</div>			
+	</div>
+</div> <!--close rightBox-->
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer" style="color:#181529">   <a href= "http://www.twitter.com"> <img src="Twitter-icon.png" alt="twitter" width="20" height="20"</a>
+		 <a href= "http://www.facebook.com/"> <img src="FaceBook-icon.png" alt="facebook" width="20" height="20" </a> 
+		 &nbsp; | &nbsp; <a href= "contact.html"> Contact </a> &nbsp; | &nbsp; Copyright &copy; 2012
+</div>	
+	
+		
+	</body>
+</html>

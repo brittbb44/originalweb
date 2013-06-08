@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title> Visiting Page
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+    </head>
+    <body>
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <div style=" text-align:center">
+                    <img style="width: 375px; height: 100px" src="http://brittneybarry.com/jellylogo4.jpg" />
+                </div>
+                <div style="">
+                    <img style="width: 375px; height: 50px" src="the.png" />
+                </div>
+            </div>
+            <div data-role="content">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="mobile.html" data-theme="b" data-icon="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="appvisit.html" data-theme="d" data-icon="">
+                                <font color="#181529"> Visit </font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="appevents.html" data-theme="b" data-icon="">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="appgallery.html" data-theme="b" data-icon="">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://brittneybarry.com/wordpress/" data-theme="b" data-icon="">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Visiting Information
+                        </h3>
+                        <div>
+                            <h5>
+                                <b>
+                                    Hours:
+                                    <br />
+                                    M-Th. 9am-10pm,
+                                    <br />
+                                    Fridays 9am-12pm,
+                                    <br />
+                                    Sat-Sun. 8am-12pm
+                                    <br />
+                                    <br />
+                                    Address:
+                                    <br />
+                                    848 Waterdrift Ave.
+Ocean Bay, CA. 89103
+                                    <br /><br>
+                                    Phone:
+                                    <br />
+                                    (555) 678-0987
+                                    <br /><br>
+                                    Email:
+                                    <br />
+                                    AJelly@gmail.com
+                                </b>
+                            </h5>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Prices
+                        </h3>
+						 <div>
+                            <h5>
+                                Tickets:<br><br>
+
+Seniors- $15.00<br>
+Adults- $20.00<br>
+Children 6-12- $15.00<br>
+Children 1-5- $10.00<br>
+Group Discounts Available!<br>
+(Call in at least 3 weeks before your group visit)<br><br>
+Membership:<br>
+
+Year Member- $85.00 
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=&amp;zoom=14&amp;size=288x200&amp;markers=Huninngton beach&amp;sensor=false" width="288" height="200" />
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h3>
+                     <font color="FFF" size="1" >   Copyright &copy; 2012  | <a href="appcontact.html"> Contact </a> |<a href=".html"> Sign Up </a>
+				|<a href="http://brittneybarry.com/project1.html"> Full Site </a> </font> 
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+
+font-family: 'Nunito', sans-serif;
+
+a:link {color: #181529; text-decoration: none;}
+a:visited {color:#181529;}
+a:hover {color: #f0e4c5;}
+a:active {color: #181529;}

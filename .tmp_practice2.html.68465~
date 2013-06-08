@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Practice Quiz</title>
+		<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+		
+		<!--linkcss-->
+		<link rel= "stylesheet" href= "css/practice2jquery.css" type="text/css" />
+		
+	<!--tags-->
+		<script type="text/javascript">
+			
+		$(document).ready(function( ) {
+			$('.answer').hide();
+			$('#main h2').toggle(
+			function(){$(this).next('.answer').fadeIn();},
+			function(){$(this).next('.answer').fadeOut();}
+			
+			);//end of toggle()	
+		
+		
+		
+		
+		}); // end of javascript function
+		</script>
+
+
+	</head>
+		<body>
+<div id="main">
+
+		<h2>Box Jellyfish are one of the most dangerous jellies in the world. T or F?</h2>
+<div class="answer">
+<p>True</p>
+</div>
+
+<h2>The worlds largest Jellyfish can grow over 120 feet long. T or F?</h2>
+<div class="answer">
+<p>True </p>
+</div>
+
+<h2>Are there good things about jellyfish?
+</h2>
+<div class="answer">
+<p>Yes, jellyfish are very important animals in the ocean. We should definitely respect and not harm them.
+ They are food for a number of marine animals such as large fish and turtles.
+  Even humans eat jellyfish Ð yummy! Jellyfish also provide habitat for many juvenile fishes in areas 
+  where there are not many places to hide. They can also protect the small fish from being eaten by 
+  predators with their stinging cells. Also, many young crabs hitchhike on the top of jellyfish so 
+  they donÕt have to swim. </p>
+</div>
+<h2>What do they eat?
+</h2>
+<div class="answer">
+<p>Jellyfish eat many different types of things, such as small plants (phytoplankton), 
+copepods (crustacean zooplankton), fish eggs and other small fish called larvae; 
+they also eat the planktonic eggs and young stages (also called larvae) of many different 
+kinds of marine animals. Some jellyfish even eat other jellyfish! When jellyfish form blooms 
+they eat almost everything in the water and this can cause problems for fisheries because there 
+is no food left for the fish to eat! </p>
+</div>
+<h2>Why do some jellyfish sting?
+</h2>
+<div class="answer">
+<p>Some jellyfish have millions of very small stinging cells in their tentacles called nematocysts.
+ These cells are used to capture food by injecting toxin into the prey. When we are stung it hurts 
+ because the toxin goes through our skin Ð ouch! </p>
+</div>
+	</div>	
+		
+	</body>
+</html>

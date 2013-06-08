@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Critique</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/formcss.css" type="text/css" />
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+<!--jquery-->
+<script type="text/javascript"
+src="js/jquery.js">
+</script>
+<!--jqueryvalidate-->
+<script type="text/javascript"
+src="js/jquery.validate.js">
+</script>
+		<!--validate-->
+		<script type= "text/javascript">
+$(document).ready(function() {
+$('#signup').validate();
+});
+</script>
+		
+		
+	</head>
+	<body>
+		<!--navigation-->
+		<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 The Aquarium of Jellyfish </div>
+			</div>
+		<div id="bar">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Events &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "scrollgallery.html"> &nbsp;&nbsp;&nbsp;&nbsp; Gallery  &nbsp;&nbsp;&nbsp;&nbsp; </a> </a> 	
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Hours  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "htmlform.html"> &nbsp;&nbsp;&nbsp;&nbsp; Donations  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				</p></div>
+		</div>
+		
+	</div>
+		
+		
+		
+		<div id="leftBox">
+<div id="pic">
+	<p align= "middle">  <form method="post" id="signup" action="feedback.php">
+<h2> Check Box Critique: </h2>
+<h4> 
+Name:
+<input type="name" class="required"
+name="name" id="myName" />
+<br><br>
+<label id="error">Link to YOUR site:</label> 
+<input type="name" class="required"title= "This is so I can rate yours too"
+name="name2" id="yourName" />
+<br><br>
+<label id="error"> Email:</label>  <input type="text"
+name="CustEmail"t
+id="CustEmail" />
+</h4>
+
+
+
+<!--check box-->
+--Which of the following are working for this site? : 
+<h5> 
+<input type="checkbox"
+name="colors" id="colors" value="yes" />
+Color Choice <br />
+<textarea name="color" id="color" cols="20"
+rows="2"> if no, explain.. </textarea>
+<br><br>
+<input type="checkbox"
+name="links" id="links"
+value="yes" /> Links/Navigation<br />
+<textarea name="linksn" id="linksn" cols="20"
+rows="2"> if no, explain.. </textarea>
+<br><br>
+<input type="checkbox"
+name="Type/hierarchy" id="Type/hierarchy"
+value="yes" />Typeface/Hierarchy<br />
+<textarea name="typeh" id="otypeh" cols="20"
+rows="2"> if no, explain.. </textarea>
+<br><br>
+<input type="checkbox"
+name="Space/Organization" id="Space/Organization"
+value="yes" />Space/Organization<br />
+<textarea name="spaceo" id="spaceo" cols="20"
+rows="2"> if no, explain.. </textarea>
+</h5>
+<h5>
+Other comments regarding Check Box:
+	<textarea name="ordercomments" id="ordercomments" cols="30"
+rows="2"> Comment here... </textarea>
+<br><br>
+*Move onto Task Box to complete critique-->
+</h5>
+	</div>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="rightBox">
+<div id="pic2">
+	<p align= "middle">  <form method="post" id="signup" action="feedback.php">
+
+<!--task box-->
+<h2> Task Box Critique: </h2>
+
+You are a Zoology student doing some research on a 'Moon Jelly' jellyfish.
+You want to first see if this museum has the jellyfish you are looking for
+by searching the gallery.<br>
+When you see that they do, you then search for the hours and prices to make your trip.
+
+<br><br><br>
+How did the task go?:
+
+	<textarea name="taskcom" id="taskcom" class"required" cols="30"
+rows="2"> Comments here.. </textarea>
+
+<br><br><br>
+<input type="submit" />
+</form> </p>
+	</div>
+	 <br>
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

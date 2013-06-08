@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+	
+	<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+
+		
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#makeMeScrollable").smoothDivScroll({ 
+			mousewheelScrolling: true,
+			manualContinuousScrolling: true,
+			visibleHotSpotBackgrounds: "always",
+			
+		});
+	});
+</script>
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Jellyfish Aquarium</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss2.css" type="text/css" />
+		<br>
+		
+		
+		
+		
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 The Aquarium of Jellyfish
+				 <div id="jelly">
+				  <img src="jellylogo4.jpg" height="110px" width="390px" > </div> </div>
+			</div>
+			<div id="bar">
+				&nbsp;
+				
+				<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "hourspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Visit  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Events &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "gallerypage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Gallery  &nbsp;&nbsp;&nbsp;&nbsp; </a> </a> 	
+				<a href= "donationspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Donations  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "http://brittneybarry.com/wordpress/"> &nbsp;&nbsp;&nbsp;&nbsp; Blog  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "mobile.html"> &nbsp;&nbsp;&nbsp;&nbsp; Mobile  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<br>
+	</head>
+	<body>
+		 
+		
+		
+		<div id="wrapper">
+<div id="leftBox">
+<div id="pic">
+	
+	<h2> Recent News: </h2> 
+	- On April 24th an albino killer whale was found off the coast of Russia being the first one ever spotted.
+	<br><br>
+	- As of April 16th it has been declared that the penny jellyfish is now extinct.
+	
+	<h2> Upcoming news:</h2>
+	- May 15th Brittany Yamano will be a guest speaker at our aquarium. Go to our events page to find out more.
+	  <a href="eventspage.html"> Events </a>
+	
+	
+	</div>
+	
+	 
+
+	
+	
+	
+	
+	
+</div> <!--close leftBox-->
+
+<div id="rightBox">
+	<br>
+	<h2 style="position:center;"> &nbsp; "The Beauty of a Brainless Wonder"</h2>
+		<!-- scrollbox -->
+		
+		The Aquarium of Jellyfish is to educate the public of such a strange yet 
+		wonderful species. People can learn what isn't commonly known about a jellyfish 
+		and actually get to see the wide variety of different types.
+		Unique/Popular/Invasive Jellyfish are being displayed in this wonderful Aquarium. 
+	    Throughout the Aquarium, they are categorized by size and location from all over the world!
+		<p align="center"> Please come share your experience with us!</p>
+		<br>
+		<h2 align="center"> Check our calendar for special events like these:
+		</h2>
+			<li> Special showings and lectures based on <br> &nbsp;&nbsp;&nbsp;&nbsp; particular jellies</li>
+ <li> Special guests to talk about marine life</li>
+ <li> Unique movie screening of the life of jellyfish</li>
+ <li> Rare light show viewing of particular jellies
+</li>
+		
+		
+	  
+	   
+ <!-- scrollbox -->
+
+		 <div class= "signin" style="color:#181529"><a href= "newsletterpage.html">&nbsp;&nbsp; Sign up! &nbsp;&nbsp; </a> 
+ </div>
+	
+	
+<div id="lastBox" style="position:absolute;margin-left: 370px;height:420px;margin-top:-415px;">
+		
+	
+	<h1 align="center" style=" color: #8dcffb"> Newest Addition <br> Displayed Today!</h1>
+	<p align="center"> Our newest arival of White Spotted Jellyfish will be on <br>
+	 display for the next month flown all the way from Japan.</p>
+	
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp; <img src="jelly5.jpg" height="250px" width="200px">
+	
+	
+	
+	   
+	
+	</div> 
+	
+</div> <!--close rightBox-->
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer" style="color:#181529">   <a href= "http://www.twitter.com"> <img src="Twitter-icon.png" alt="twitter" width="20" height="20"</a>
+		 <a href= "http://www.facebook.com/"> <img src="FaceBook-icon.png" alt="facebook" width="20" height="20" </a> 
+		 &nbsp; | &nbsp; <a href= "contactpage.html"> Contact </a> &nbsp; | &nbsp; Copyright &copy; 2012
+</div>	
+	
+		
+	</body>
+</html>

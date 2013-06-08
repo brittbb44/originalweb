@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		
+	
+
+
+</div>
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 Brittney Barry </div>
+			</div>
+			<div id="bar">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href= "index.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp; Project1 &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "practice2.html"> &nbsp;&nbsp;&nbsp;&nbsp; Practice  &nbsp;&nbsp;&nbsp;&nbsp; </a> 	</p>
+			</div>
+		</div>
+		<div id="logo"></div>
+	</div>
+		
+
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title> Brittney Barry</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss.css" type="text/css" />
+		<br>
+	</head>
+	<body>
+		
+		
+		<div id="wrapper">
+<div id="leftBox">
+<div id="pic">
+	<p align= "middle">  <img src="profpic.jpg" alt="me" width="150" height="190"/> </p>
+	</div>
+	 <br>
+	 
+	<br/>
+	
+</div> <!--close leftBox-->
+<div id="rightBox">
+	<br>
+	<br>
+	<!-- scrollbox -->
+<div style="height:320px;width:620px;font:16px/26px Georgia, Garamond, Serif;overflow:scroll;">
+
+<div id="commentBox1">&nbsp;&nbsp;&nbsp;&nbsp; Welcome to my page!
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+	<br>
+	<br>
+	
+	<div id="commentBox2">
+		&nbsp;&nbsp;&nbsp;&nbsp; Join Me at Opinionatethis.com !!!! &nbsp;&nbsp;&nbsp;&nbsp;
+		<br><img src="deprofpic.jpg" alt="me" width="150" height="190"/>
+		<br>
+		<br>
+		 </div>
+		 <br>
+		 <div id="commentBox1"> 
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+	<br>
+	<br>
+	
+	<div id="commentBox2">
+		
+		<br>
+		<br>
+		<br>
+		 </div>
+	</div>
+<h1> </h1>
+<br> 
+<br>
+<br>
+<br>
+<br>
+</div> <!--close rightBox-->
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer">Copyright &copy; 2012</div>	
+	
+		
+	</body>
+</html>

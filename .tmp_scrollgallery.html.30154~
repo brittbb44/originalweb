@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		
+		
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/smoothDivScroll.css" type="text/css" />
+		
+		<script type="text/javascript" src= "js/jquery.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+		
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#makeMeScrollable").smoothDivScroll({ 
+			mousewheelScrolling: true,
+			manualContinuousScrolling: true,
+			visibleHotSpotBackgrounds: "always",
+			autoScrollingMode: "onstart"
+		});
+	});
+</script>
+
+	</head>
+	
+	
+	
+	<body>
+		
+			<br>
+	
+
+<div id="makeMeScrollable">
+		<img src="deprofpic.jpg" alt="Demo image" id="1" />
+		<img src="owl.jpg" alt="Demo image" id="2" />
+		<img src="deprofpic.jpg" alt="Demo image" id="1" />
+		<img src="owl.jpg" alt="Demo image" id="2" />
+		<img src="deprofpic.jpg" alt="Demo image" id="1" />
+		
+	</div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

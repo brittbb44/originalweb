@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon5.ico" type="image/x-icon" />
+		
+			
+		
+<script type="text/javascript">
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+</script>
+		
+			
+		
+		
+	
+
+
+</div>
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style=" margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href= "index.html"> <img src="barryd.png" height="148px" width="150px" ></a> </a>  </div>
+			</div><b></b>
+			<div id="bar" style="font-size:14px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href= "webindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp; Web Sites &nbsp;&nbsp;&nbsp; </a>
+				<a href= "paintingindexp.html"> &nbsp;&nbsp;&nbsp; Paintings &nbsp;&nbsp;&nbsp;&nbsp; </a> 
+				<a href= "photogindexp.html"> &nbsp;&nbsp;&nbsp; Photography  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "projectindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Projects &nbsp;&nbsp;&nbsp;&nbsp; </a> 
+				<a href= "contactindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Contact &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<br></div> 
+					</p>
+			</div>
+		</div>
+		<div id="logo"></div>
+	</div>
+		
+
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title> Brittney Barry</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss.css" type="text/css" />
+		
+		
+		<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+
+<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<br>
+	</head>
+	<body>
+		
+		
+		<div id="wrapper">
+<div id="leftBox" style="font-size:30px; color:#000;">
+	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull; &nbsp;&nbsp;<b>Paintings </b>& Illustrations &nbsp; &bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;
+	<br>
+<div id="pic" style="position:absolute;margin-left:290px;margin-top:10px;font-size:20px;"> <img src="dblue.png" height="50px" width="70px" ></a> </div> <div id="pic" style="position:absolute;margin-left:390px;margin-top:10px;font-size:20px;">
+ <img src="mblue.png" height="50px" width="70px" ></a>  </div>
+<div id="pic" style="position:absolute;margin-left:490px;margin-top:10px;font-size:20px;"> <img src="lblue.png" height="50px" width="70px"> </a> <a href= "otherindexp.html" style="color:#000;"> </a></div>
+<div id="pic" style="position:absolute;margin-left:590px;margin-top:10px;font-size:20px;">  <img src="sblue.png" height="50px" width="70px"> </a> </div>
+
+</div> <!--close leftBox-->
+
+
+
+
+
+
+
+
+
+
+
+<div id="pic" style="position:absolute;margin-left:60px;margin-top:210px;font-size:20px;width:300px; color:#afafaf;">  
+ <b> </b> <a class="fancybox" rel="group" href="paint2p.png"><img src="paint2psmall.png" height="177px" width="243px" alt="" /></a>  </div>
+<div id="pic" style="position:absolute;margin-left:60px;margin-top:410px;font-size:20px;width:300px; color:#afafaf;">  
+ <b> </b> <a href= ""> <img src="paint3p.png" height="177px" width="243px" > </a> <a href= "" style="color:#000;font-size:15px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a> </div>
+<div id="pic" style="position:absolute;margin-left:60px;margin-top:610px;font-size:15px;"> <a href= ""> <img src="paint9.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div> 
+ 
+<div id="pic" style="position:absolute;margin-left:330px;margin-top:210px;font-size:15px;"> <a href= ""> <img src="paint5p.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+<div id="pic" style="position:absolute;margin-left:330px;margin-top:410px;font-size:15px;"> <a href= ""> <img src="paint4p.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+<div id="pic" style="position:absolute;margin-left:330px;margin-top:610px;font-size:15px;"> <a href= ""> <img src="calp.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+
+<div id="pic" style="position:absolute;margin-left:600px;margin-top:210px;font-size:15px;"> <a href= ""> <img src="paint6p.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+<div id="pic" style="position:absolute;margin-left:600px;margin-top:410px;font-size:15px;"><a href= ""> <img src="paint7p.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+<div id="pic" style="position:absolute;margin-left:600px;margin-top:610px;font-size:15px;"> <a href= ""> <img src="paintp.png" height="177px" width="243px"> </a> <a href= "" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+
+
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer">Copyright &copy; 2013</div>	
+	
+		
+	</body>
+</html>

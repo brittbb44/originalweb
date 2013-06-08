@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+    </head>
+    <body>
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <div style="">
+                    <img style="width: 375px; height: 100px" src="http://brittneybarry.com/jellylogo4.jpg" />
+                </div>
+                <h3>
+                    The Aquarium of Jellyfish
+                </h3>
+            </div>
+            <div data-role="content">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="b" data-icon="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page1" data-theme="b" data-icon="">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page1" data-theme="b" data-icon="">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page1" data-theme="b" data-icon="">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style=" text-align:right">
+                    <img style="width: 120px; height: 150px" src="http://brittneybarry.com/jelly5.jpg" />
+                </div>
+                <div>
+                    <b>
+                        Newest Addition 
+Displayed Today!
+                        <h5>
+                            Our newest arival of White Spotted Jellyfish will be on 
+display for the next month flown all the way from Japan.
+                        </h5>
+                    </b>
+                </div>
+            </div>
+            <div data-theme="b" data-role="footer">
+                <h3>
+                    Copyright | Contact
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

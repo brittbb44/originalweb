@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon3.ico" type="image/x-icon" />
+		
+	
+
+
+</div>
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style=" margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href= "index.html"> <img src="barryd.png" height="148px" width="150px" ></a> </a> </div>
+			</div><b></b>
+			<div id="bar" style="font-size:14px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href= "webindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp; Web Sites &nbsp;&nbsp;&nbsp; </a>
+				<a href= "paintingindexp.html"> &nbsp;&nbsp;&nbsp; Paintings &nbsp;&nbsp;&nbsp;&nbsp; </a> 
+				<a href= "photogindexp.html"> &nbsp;&nbsp;&nbsp; Photography  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "projectindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Projects &nbsp;&nbsp;&nbsp;&nbsp; </a> 
+				<a href= "contactindexp.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Contact &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<br>
+					</p>
+			</div>
+		</div>
+		<div id="logo"></div>
+	</div>
+		
+
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title> Brittney Barry</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss.css" type="text/css" />
+		<br>
+	</head>
+	<body>
+		
+		
+		<div id="wrapper">
+<div id="leftBox" style="font-size:30px; color:#000;">
+	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+	&nbsp;&nbsp; &bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull; &nbsp;&nbsp;<b>Web </b>  Sites &nbsp; &bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;
+	<br>
+<div id="pic" style="position:absolute;margin-left:300px;margin-top:10px;font-size:20px;"><a href= "webinedxp.html" style="color:#f0bbb6;font-size:20px;"> <img src="dblue.png" height="50px" width="70px" ></a> <a href= "mobileindexp.html" style="color:#d24851;font-size:15px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web Sites</a> </div>	
+<div id="pic" style="position:absolute;margin-left:450px;margin-top:10px;font-size:20px;"><a href= "mobileindexp.html" style="color:#f0bbb6;font-size:20px;"> <img src="mblue.png" height="50px" width="70px" ></a> <a href= "mobileindexp.html" style="color:#000;font-size:15px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile Sites</a> </div>
+<div id="pic" style="position:absolute;margin-left:600px;margin-top:10px;font-size:15px;"> <a href= "otherindexp.html"> <img src="lblue.png" height="57px" width="70px"> </a> <a href= "otherindexp.html" style="color:#000;font-size:15px;"> &nbsp;&nbsp;&nbsp;Forms/Other</a></div>
+
+</div> <!--close leftBox-->
+
+
+<div id="pic" style="position:absolute;margin-left:40px;margin-top:250px;font-size:20px;width:300px; color:#afafaf;"> The Aquarium of Jellyfish 
+ <b> </b> <a href= "project1.html"> <img src="webp2.png" height="350px" width="490px" > </a> <a href= "project1.html" style="color:#000;font-size:15px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home Page </a> </div>
+
+
+<div id="pic" style="position:absolute;margin-left:580px;margin-top:260px;font-size:15px;"> <a href= "hourspage.html"> <img src="visitp.png" height="177px" width="243px"> </a> <a href= "hourspage.html" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visit Page</a></div>
+
+<div id="pic" style="position:absolute;margin-left:580px;margin-top:470px;font-size:15px;"><a href= "eventpage.html"> <img src="eventsp.png" height="177px" width="243px"> </a> <a href= "eventpage.html" style="color:#000;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Events Page</a></div>
+
+
+
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer">Copyright &copy; 2013</div>	
+	
+		
+	</body>
+</html>

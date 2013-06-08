@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+		
+		
+			<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+
+
+	<!--jquery-->
+<script type="text/javascript"
+src="js/jquery.js">
+</script>
+<!--jqueryvalidate-->
+<script type="text/javascript"
+src="js/jquery.validate.js">
+</script>
+		<!--validate-->
+		<script type= "text/javascript">
+$(document).ready(function() {
+$('#signup').validate();
+});
+</script>
+		
+    </head>
+    <body>
+       <div data-role="page" id="page1">
+            <div style="background-color:#181529;" data-role="header">
+                <div style="">
+                    <img style="width: 375px; height: 100px" src="http://brittneybarry.com/jellylogo4.jpg" />
+                </div>
+                 <div style="">
+                    <img style="width: 375px; height: 50px" src="the.png" />
+                </div>
+				 <h3>
+                   <font size="2">Newsletter Sign Up </font> 
+                </h3>
+            
+				
+            </div>
+            <div data-role="content">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="mobile.html" data-theme="b" data-icon="">
+                                 Home
+                            </a>
+                        </li>
+						 <li>
+                            <a href="appvisit.html" data-theme="b" data-icon="">
+                                Visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="appevents.html" data-theme="b" data-icon="">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="appgallery.html" data-theme="b" data-icon="">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://brittneybarry.com/wordpress/" data-theme="b" data-icon="">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+				<form method="post" id="signup" action="feedback.php">
+				
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput1">
+                           <label id="error"> Name: </label>
+                        </label> 
+                        <input id="textinput1" placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+				<div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput3">
+                           <label id="error"> Address: </label>
+                        </label> 
+                        <input id="textinput3"  placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput2">
+                          <label id="error">  Email: </label>
+                        </label>
+                        <input id="textinput2"  placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                           <label id="error"> Choose Payment: </label>
+                        </legend>
+                        <input name="checkbox1" id="checkbox1" type="checkbox" />
+                        <label for="checkbox1">
+                            Visa
+                        </label>
+                        <input name="checkbox2" id="checkbox2" type="checkbox" />
+                        <label for="checkbox2">
+                            Master Card
+                        </label>
+                        <input name="checkbox3" id="checkbox3" type="checkbox" />
+                        <label for="checkbox3">
+                            eCheck
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput3">
+                           <label id="error"> Card number: </label>
+                        </label> 
+                        <input id="textinput3" placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+                <input type="submit" data-theme="b" value="Submit" data-mini="true" />
+            </div>
+			</form>
+            <div data-theme="a" data-role="footer">
+                <h3>
+                   <font color="FFF" size="1" >   Copyright &copy; 2012  | <a href="appcontact.html"> Contact </a> |<a href="appsignup.html"> Sign Up </a>
+				|<a href="http://brittneybarry.com/project1.html"> Full Site </a> </font> 
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

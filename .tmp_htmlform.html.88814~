@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/formcss.css" type="text/css" />
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+<!--jquery-->
+<script type="text/javascript"
+src="js/jquery.js">
+</script>
+<!--jqueryvalidate-->
+<script type="text/javascript"
+src="js/jquery.validate.js">
+</script>
+		<!--validate-->
+		<script type= "text/javascript">
+$(document).ready(function() {
+$('#signup').validate();
+});
+</script>
+		
+		
+	</head>
+	<body>
+		
+		
+		
+		<div id="leftBox">
+<div id="pic">
+	<p align= "middle">  <form method="post" id="signup" action="feedback.php">
+
+Name:<br>
+<input type="name" class="required"
+name="name" id="myName" />
+<br><br>
+<label id="error"> Email:</label> <br> <input type="text"
+name="CustEmail" class="required email"title= "Please give us your email"
+id="CustEmail" />
+<br /><br />
+Password box:
+<input type="password" class="required"
+name="myPassword" id="myPassword" />
+<br /><br />
+
+
+<!--check box-->
+Pole: Which type of jellyfish is your favorite?:
+<br>
+<input type="checkbox"
+name="sea nettle" id="sea nettle" value="yes" />
+Sea Nettle<br />
+<input type="checkbox"
+name="moon jelly" id="moon jelly"
+value="yes" /> Moon jelly<br />
+<input type="checkbox"
+name="Portuguese Man o' War" id="Portuguese Man o' War"
+value="yes" />Portuguese Man o' War<br />
+<input type="checkbox"
+name="Lion's Mane" id="Lion's Mane"
+value="yes" />Lion's Mane Jelly<br />
+
+	<textarea name="ordercomments" id="ordercomments" cols="20"
+rows="2"> Or name your favorite here.. </textarea>
+<input type="submit" />
+</form> </p>
+	</div>
+	 <br>
+		
+		
+		
+	</body>
+</html>

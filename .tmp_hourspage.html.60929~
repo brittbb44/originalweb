@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+
+<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+
+
+	
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#makeMeScrollable").smoothDivScroll({ 
+			mousewheelScrolling: true,
+			manualContinuousScrolling: true,
+			visibleHotSpotBackgrounds: "always",
+			autoScrollingMode: "onstart"
+		});
+	});
+</script>
+
+
+
+	<!--jquery-->
+<script type="text/javascript"
+src="js/jquery.js">
+</script>
+<!--jqueryvalidate-->
+<script type="text/javascript"
+src="js/jquery.validate.js">
+</script>
+		<!--validate-->
+		<script type= "text/javascript">
+$(document).ready(function() {
+$('#signup').validate();
+});
+</script>
+	
+
+
+
+			
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Jellyfish Aquarium</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss2.css" type="text/css" />
+		<br>
+		
+		
+		
+		</div>
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 The Aquarium of Jellyfish </div>
+				  <div id="jelly">
+				  <img src="jellylogo4.jpg" height="110px" width="390px" > </div> </div>
+			</div>
+			</div>
+			<div id="bar">
+				&nbsp;&nbsp;&nbsp;
+				
+			<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "hourspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Visit  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Events &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "gallerypage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Gallery  &nbsp;&nbsp;&nbsp;&nbsp; </a> </a> 	
+				<a href= "donationspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Donations  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<br>
+	</head>
+	<body>
+		
+		
+		<div id="wrapper">
+<div id="leftBox">
+<div id="pic">
+	<p align="left">
+		<h2> Visiting Information</h2>
+		Hours:<br>
+		 M-Th. 9am-10pm,
+		 <br>
+		 Fridays 9am-12pm,
+		 <br>
+		 Sat-Sun. 8am-12pm
+		 <br><br>
+		 Address:
+		 <br>
+		 848 Waterdrift Ave.<br>
+		Ocean Bay, CA. 89103<br><br>
+		Phone: <br>
+		(555) 678-0987<br><br>
+		Email:<br>
+		 AJelly@gmail.com<br>
+		
+		
+		
+	</div>
+	 <br>
+	 
+	<br/>
+	
+</div> <!--close leftBox-->
+
+<div id="rightBox">
+	
+	<br> <div class= "signin" style="color:#181529"><a href= "newsletterpage.html">&nbsp;&nbsp; Sign up! &nbsp;&nbsp; </a> 
+ </div>
+ <a href= "http://maps.google.com"><img src="map.jpg" height="145px" width="145px"><br>
+		  </a> Click Map for Directions &nbsp;&nbsp;<br>
+ 
+ 
+ 
+	<h4>Prices: </h4>
+	Seniors- $15.00<br>
+	Adults- $20.00<br>
+	Children 6-12- $15.00<br>
+	Children 1-5- $10.00<br>
+	Group Discounts Available!<br> (Call in at least 3 weeks before your group visit)
+	
+	<h4> Membership:</h4>
+	Year Member- $85.00
+	<br>
+
+		
+		
+		<div id="lastBox" style="position:absolute;margin-left: 370px;height:420px;margin-top:-400px;">
+		<h1> Become a Member Today!</h1>
+		
+	<p align= "middle">  <form method="post" id="signup" action="feedback.php">
+ 
+Name:
+<input type="name" class="required"
+name="name" id="myName" />
+<br><br>
+<label id="error">Address:</label> 
+<input type="name" class="required" title= "Please give us your address."
+name="name2" id="yourName" />
+<br><br>
+<label id="error"> Email:</label>  <input type="text"
+name="CustEmail" class="required"
+id="CustEmail" /><br>
+<h5 style="color:#f0e4c5;"> Type of Payment<br>
+<input type="checkbox"
+name="visa" id="visa" value="yes" />
+Visa <br />
+<input type="checkbox"
+name="master" id="master" value="yes" />
+Master Card<br />
+<input type="checkbox"
+name="Echeck" id="Echeck" value="yes" />
+Echeck <br /><br>
+Card Number: 
+<input type="numb" class="required" 
+name="name3" id="number" />
+<br> &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" />
+</form> 
+</h5></p>
+
+
+
+
+	<!-- scrollbox -->
+<div class="content">
+ 	
+	&nbsp;&nbsp;&nbsp;
+	<div style="float:left;700px;width:160px;" id="makeMeScrollable">
+		<img src="lionmane.jpg" height="80px" width="80px"alt="Demo image" id="1" /><!--Lion's Mane-->
+		<img src="manowar.jpg" height="80px" width="80px"alt="Demo image" id="2" /><!--Portuguese Man'O'War-->
+		<img src="seanettle.jpg" height="80px" width="80px" alt="Demo image" id="3" /><!--Sea Nettle-->
+		<img src="purpstripe.jpg" height="80px" width="80px" alt="Demo image" id="4" /><!--Purple Striped Jelly-->
+		<img src="moonjelly.jpg" height="80px" width="80px" alt="Demo image" id="5" /><!--Moon Jelly-->
+		<img src="wspottedjelly.jpg" height="80px" width="80px" alt="Demo image" id="6" /><!--White Spotted Jelly-->
+		<img src="jelly1.jpg" height="80px" width="80px"alt="Demo image" id="1" />
+		<img src="jelly3.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly2.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly6.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly4.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly5.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly7.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+		<img src="jelly8.jpg" height="80px" width="80px" alt="Demo image" id="1" />
+	</div>
+		
+	</div>
+		
+		
+	</div>
+</div> <!--close rightBox-->
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer" style="color:#181529">   <a href= "http://www.twitter.com"> <img src="Twitter-icon.png" alt="twitter" width="20" height="20"</a>
+		 <a href= "http://www.facebook.com/"> <img src="FaceBook-icon.png" alt="facebook" width="20" height="20" </a> 
+		 &nbsp; | &nbsp; <a href= "contactpage.html"> Contact </a> &nbsp; | &nbsp; Copyright &copy; 2012
+</div>	
+	
+		
+	</body>
+</html>

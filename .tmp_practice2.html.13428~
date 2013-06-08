@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+		
+		<!--linkcss-->
+		<link rel= "stylesheet" href= "css/practice2jquery.css" type="text/css" />
+		
+	<!--tags-->
+		<script type="text/javascript">
+			
+		$(document).ready(function( ) {
+			$('.answer').hide();
+			$('#main h2').toggle(
+			function(){$(this).next('.answer').fadeIn();},
+			function(){$(this).next('.answer').fadeOut();}
+			
+			);//end of toggle()	
+		
+		
+		
+		
+		}); // end of javascript function
+		</script>
+
+
+	</head>
+		<body>
+<div id="main">
+
+		<h2>I've heard that toilet water in austrailia spin the opposite way it does here . Is this true?</h2>
+<div class="answer">
+<p>No, Studies prove that the corriolus effect(rotating of earth's direction and speed) prevents this from happening.</p>
+</div>
+
+<h2>Do you like food?</h2>
+<div class="answer">
+<p>Why, yes! yes i do! </p>
+</div>
+	</div>	
+		
+	</body>
+</html>

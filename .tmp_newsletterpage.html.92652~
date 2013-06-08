@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!--favicon-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+			<!---rss-->	
+<link rel="alternate"
+type="application/rss+xml"
+title="RSS feed" href="http://www.brittneybarry.com.html"</link>
+	
+	<!--lickjs-->
+		<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src= "js/jquery.smoothDivScroll-1.2.js"></script>
+		<script type="text/javascript" src= "js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src= "js/jquery.smoothdivscroll-1.2-min.js"></script>
+
+		
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#makeMeScrollable").smoothDivScroll({ 
+			mousewheelScrolling: true,
+			manualContinuousScrolling: true,
+			visibleHotSpotBackgrounds: "always",
+			autoScrollingMode: "onstart"
+		});
+	});
+</script>
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Jellyfish Aquarium</title>
+		
+		<!--css link-->
+		<link rel= "stylesheet" href= "css/indexcss2.css" type="text/css" />
+		<br>
+		
+		
+		
+		
+
+	<div id= "navi"> 
+
+		<div id="nav-container" style="max-width: 1000px; margin-left: 0 auto; margin-right: 0 auto;">
+			<div id='header'>
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 The Aquarium of Jellyfish
+				 <div id="jelly">
+				  <img src="jellylogo4.jpg" height="110px" width="390px" > </div> </div>
+			</div>
+			<div id="bar">
+				&nbsp;&nbsp;&nbsp;
+				
+				<a href= "project1.html"> &nbsp;&nbsp;&nbsp;&nbsp;  Home &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "hourspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Visit  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "eventpage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Events &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "gallerypage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Gallery  &nbsp;&nbsp;&nbsp;&nbsp; </a> </a> 	
+				<a href= "donationspage.html"> &nbsp;&nbsp;&nbsp;&nbsp; Donations  &nbsp;&nbsp;&nbsp;&nbsp; </a>
+				<a href= "http://brittneybarry.com/wordpress/"> &nbsp;&nbsp;&nbsp;&nbsp; Blog  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<br>
+	</head>
+	<body>
+		 
+		
+		
+		<div id="wrapper">
+<div id="leftBox">
+<div id="pic">
+	
+	
+	
+	</div>
+	 <br>
+	 
+	<br/>
+	
+</div> <!--close leftBox-->
+
+<div id="rightBox">
+	<br>
+	<h1>Newsletter Sign Up</h1>
+<br> 
+
+
+<div id="lastBox" style="position:absolute;margin-left: 370px;height:420px;margin-top:-90px;">
+<br><br
+	
+	</div>			
+	</div>
+</div> <!--close rightBox-->
+</div> <!--close wrapper-->
+		 
+		 
+		 
+		 
+
+	
+	
+		
+	
+		
+
+		
+		
+	<!-- placing div footer at the very bottom of body-->	
+	<div class= "footer" style="color:#181529">   <a href= "http://www.twitter.com"> <img src="Twitter-icon.png" alt="twitter" width="20" height="20"</a>
+		 <a href= "http://www.facebook.com/"> <img src="FaceBook-icon.png" alt="facebook" width="20" height="20" </a> 
+		 &nbsp; | &nbsp; <a href= "contactpage.html"> Contact </a> &nbsp; | &nbsp; Copyright &copy; 2012
+</div>	
+	
+		
+	</body>
+</html>
